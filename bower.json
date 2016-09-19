@@ -1,0 +1,17 @@
+{
+  "name": "init-web-project",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "PoyChang"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/poychang/init-web-project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

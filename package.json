@@ -17,5 +17,6 @@
     },
     "homepage": "https://github.com/poychang/init-web-project#readme",
     "devDependencies": {
+        "bower": "^1.7.9"
     }
 }
