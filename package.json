@@ -19,5 +19,6 @@
     "devDependencies": {
         "bower": "^1.7.9",
         "gulp": "^3.9.1",
+        "require-dir": "^0.3.0"
     }
 }
