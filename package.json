@@ -18,6 +18,7 @@
     "homepage": "https://github.com/poychang/init-web-project#readme",
     "devDependencies": {
         "bower": "^1.7.9",
+        "browser-sync": "^2.16.0",
         "gulp": "^3.9.1",
         "require-dir": "^0.3.0"
     }

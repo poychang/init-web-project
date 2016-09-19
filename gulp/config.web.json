@@ -1,0 +1,14 @@
+{
+    "browserSync": {
+        "port": 3300,
+        "server": {
+            "baseDir": "./dist/"
+        },
+        "ui": {
+            "port": 3300
+        },
+        "files": [
+            "dist/**/*"
+        ]
+    }
+}
