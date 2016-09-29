@@ -1,5 +1,7 @@
 /// <reference path="../../node_modules/gulp/bin/gulp.js" />
 
+'use strict';
+
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();     // 小型網頁伺服器
 var config = require('../config.web.json');
