@@ -1,11 +1,13 @@
 /// <reference path="../../node_modules/gulp/bin/gulp.js" />
 
-'use strict';
+(function () {
+    'use strict';
+    
+    var gulp = require('gulp');
 
-var gulp = require('gulp');
-
-gulp.task('watch', function () {
-    // gulp.watch('src/images/*', ['images']);
-    gulp.watch('src/js/**/*.js', ['jscript']);
-    gulp.watch('src/scss/**/*.scss', ['sass']);
-});
+    gulp.task('watch', function () {
+        // gulp.watch('src/images/*', ['images']);
+        gulp.watch('src/scripts/**/*.js', ['jscript']);
+        gulp.watch('src/styles/**/*.scss', ['sass']);
+    });
+})();
