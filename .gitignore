@@ -43,6 +43,9 @@ Thumbs.db
 *.o
 *.so
 
+# ignore distribution
+dist/
+
 # ignore packaged files
 *.7z
 *.dmg
